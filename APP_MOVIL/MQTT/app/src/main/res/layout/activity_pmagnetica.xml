@@ -14,7 +14,6 @@
         android:background="@color/_Blanco"
         android:orientation="vertical">
 
-
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -48,35 +47,33 @@
                 android:layout_height="@dimen/tm50sp"
                 android:src="@drawable/logo"/>
 
+            <TextView
+                android:textColor="@color/_Negro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_titulo_puertaM"
+                android:textSize="@dimen/tm25sp"/>
+
             <Button
-                android:id="@+id/btnPerfil"
+                android:id="@+id/LOG"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="10dp"
                 android:backgroundTint="@color/_Verde"
-                android:text="@string/_Perfil"
+                android:text="@string/_Log"
                 android:textColor="@color/_Negro"
-                android:textSize="@dimen/tm20sp"/>
+                android:textSize="@dimen/tm20sp" />
 
             <Button
-                android:id="@+id/btnRefresh"
+                android:id="@+id/Regresar"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:backgroundTint="@color/_Cian"
-                android:text="|"
-                android:textColor="@color/_Negro"
-                android:textSize="@dimen/tm20sp"/>
+                android:backgroundTint="@color/_Verde"
 
-            <Button
-                android:id="@+id/btnRegresa"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginLeft="10dp"
-                android:backgroundTint="@color/_Rojo"
-                android:text="X"
                 android:textColor="@color/_Negro"
-                android:textSize="@dimen/tm20sp"/>
+                android:textSize="@dimen/tm20sp" />
+
+
 
         </LinearLayout>
 
@@ -101,30 +98,22 @@
                     android:layout_height="wrap_content"
                     android:orientation="vertical"
                     android:gravity="center">
+
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/_Color9"
-                        android:text="@string/_btn_m1"
+                        android:text="@string/_btn_m7"
                         android:textColor="@color/_Negro"
-                        android:textSize="@dimen/tm25sp"/>
+                        android:textSize="@dimen/tm25sp" />
 
                     <Button
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:backgroundTint="@color/_Color2"
-                        android:text="@string/_btn_m2"
+                        android:text="@string/_btn_m8"
                         android:textColor="@color/_Negro"
                         android:textSize="@dimen/tm25sp"/>
-
-                    <Button
-                        android:layout_width="match_parent"
-                        android:layout_height="wrap_content"
-                        android:backgroundTint="@color/_Color3"
-                        android:text="@string/_btn_m3"
-                        android:textColor="@color/_Negro"
-                        android:textSize="@dimen/tm25sp"/>
-
 
                 </LinearLayout>
             </LinearLayout>
