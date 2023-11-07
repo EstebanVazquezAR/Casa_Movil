@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/_Blanco"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/_Blanco"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@color/_Blanco"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/tm50sp"
+                android:layout_height="@dimen/tm50sp"
+                android:src="@drawable/logo"/>
+            <TextView
+                android:textColor="@color/_Negro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_titulo_menu_mesas"
+                android:textSize="@dimen/tm30sp"/>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+
+            <!--        COMIDA-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/Comida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/_Color9"
+                        android:text="@string/_btn_m1"
+                        android:textColor="@color/_Negro"
+                        android:textSize="@dimen/tm25sp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/_Color2"
+                        android:text="@string/_btn_m2"
+                        android:textColor="@color/_Negro"
+                        android:textSize="@dimen/tm25sp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/_Color3"
+                        android:text="@string/_btn_m3"
+                        android:textColor="@color/_Negro"
+                        android:textSize="@dimen/tm25sp"/>
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/_Color4"
+                        android:text="@string/_btn_m4"
+                        android:textColor="@color/_Negro"
+                        android:textSize="@dimen/tm25sp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--         EXTRA-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
