@@ -1,0 +1,133 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/_Blanco"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="10dp"
+        android:background="@color/_Blanco"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:background="@color/_Blanco"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="@dimen/tm150sp"
+                android:layout_height="@dimen/tm150sp"
+                android:src="@drawable/logo"/>
+            <TextView
+                android:textColor="@color/_Negro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_titulo_menu_mesas"
+                android:textSize="@dimen/tm80sp"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:background="@color/_Blanco"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="@dimen/tm150sp"
+                android:layout_height="@dimen/tm150sp"
+                android:src="@drawable/logo"/>
+
+            <TextView
+                android:textColor="@color/_Negro"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/_btn_m4"
+                android:textSize="@dimen/tm70sp"/>
+
+            <Button
+                android:id="@+id/LOG"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:backgroundTint="@color/_Verde"
+                android:text="@string/_Log"
+                android:textColor="@color/_Negro"
+                android:textSize="@dimen/tm70sp" />
+
+            <Button
+                android:id="@+id/Regresar"
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/_Verde"
+                android:text="@string/_Menu"
+                android:textColor="@color/_Negro"
+                android:textSize="@dimen/tm70sp"
+                />
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center">
+
+
+            <!--        COMIDA-->
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <LinearLayout
+                    android:id="@+id/Comida"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:gravity="center">
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/_Color9"
+                        android:text="@string/_btn_m7"
+                        android:textColor="@color/_Negro"
+                        android:textSize="@dimen/tm70sp"
+                        android:id="@+id/Ventana_abrir"
+                        />
+
+                    <Button
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:backgroundTint="@color/_Color2"
+                        android:text="@string/_btn_m8"
+                        android:textColor="@color/_Negro"
+                        android:textSize="@dimen/tm70sp"
+                        android:id="@+id/Ventana_cerrar"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+            <!--         EXTRA-->
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</LinearLayout>
